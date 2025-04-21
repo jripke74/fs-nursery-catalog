@@ -101,3 +101,45 @@ catalog.set(willowVale, { small: 31, medium: 14, large: 24 });
 catalog.set(hidcote, { small: 31, medium: 14, large: 24 });
 catalog.set(imperialGem, { small: 31, medium: 14, large: 24 });
 catalog.set(royalCrown, { small: 31, medium: 14, large: 24 });
+
+// Step 10
+// When you need to retrieve an element from a map, you can use the get method. It takes a key as its argument,
+// and returns the associated value.
+
+// Use the get method to retrieve the value of the ballerina key from your catalog assign it to a variable named
+// getBallerina. Then, log your new variable to the console.
+
+// Step 11
+// When the value associated with a key is an object, the get method
+// will return a reference to that object. You
+// can use that reference to modify the object inside the map.
+
+// To test it, set the small property of getBallerina to an integer
+// different from 20. Then, look at the browser console to check that
+// the value has changed in your catalog.
+
+// Step 12
+// Next, remove the getBallerina declaration and each reference to it from your
+// code.
+
+// Step 13
+// In the next few steps, you'll work on a function that will allow you to
+// update the catalog when you sell plants.
+
+// Create a function named sellPlants that takes three arguments: a plant object, the
+// pot size and the number of pots to sell, in this order.
+
+// When the specified number of pots is greater then the available pots, make your
+// function return Not enough <pot-size> size pots for <item-name>. Only <pot-number>
+// left.. Replace <pot-size> with the pot size, <pot-number> with the remaining pots
+// for that size, and <item-name> with the scientific name of the plant followed by a
+// space and the name of the cultivar wrapped between single quotes.
+
+// To test that everything works, log the result of calling your sellPlants function
+// with the ballerina object, "small", and 25 to the console.
+
+function sellPlants(plant, potSize, numPots) {
+  if (numPots > plant[potSize]) {
+    return `Not enough ${potSize} size pots for ${plant["scientificName"]} '${plant["cultivar"]}'. Only ${plant[potSize]} left.`;
+  }
+}
