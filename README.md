@@ -31,3 +31,6 @@ myMap.set("name", "Jerry");
 Set the "ballerina" key to the value of your ballerina object in your catalog map. Then, log your catalog to the console.
 
 Note that to see your map object properly you'll have to open the browser console.
+
+Step 5
+The size property of a Map object returns the number of elements in the map. Log the size of your catalog to the console.
