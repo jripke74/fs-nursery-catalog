@@ -13,3 +13,21 @@ Start by creating an object with the three properties above for the Spanish lave
 
 Step 2
 Now create another object, with the same three properties, to represent another cultivar of spanish lavender called Pretty Polly, and assign it to a variable named prettyPolly.
+
+Step 3
+The remaining plant objects have been added for you. Now it's time to create your catalog.
+
+Like regular JavaScript objects, Map objects contain a collection of key-value pairs. To create a Map object, you can use the Map constructor:
+
+Example Code
+const myMap = new Map();
+Declare a catalog variable and assign it a Map object.
+
+Step 4
+Map objects remember the order in which the keys are inserted in the map. To set a key-value pair in your map object, you can use the set method. The following sets the key "name" to the value "Jerry" in the myMap map object.
+
+Example Code
+myMap.set("name", "Jerry");
+Set the "ballerina" key to the value of your ballerina object in your catalog map. Then, log your catalog to the console.
+
+Note that to see your map object properly you'll have to open the browser console.
