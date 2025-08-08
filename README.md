@@ -53,3 +53,8 @@ Step 10
 When you need to retrieve an element from a map, you can use the get method. It takes a key as its argument, and returns the associated value.
 
 Use the get method to retrieve the value of the ballerina key from your catalog assign it to a variable named getBallerina. Then, log your new variable to the console.
+
+Step 11
+When the value associated with a key is an object, the get method will return a reference to that object. You can use that reference to modify the object inside the map.
+
+To test it, set the small property of getBallerina to an integer different from 20. Then, look at the browser console to check that the value has changed in your catalog.
