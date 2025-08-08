@@ -61,3 +61,12 @@ To test it, set the small property of getBallerina to an integer different from 
 
 Step 12
 Next, remove the getBallerina declaration and each reference to it from your code.
+
+Step 13
+In the next few steps, you'll work on a function that will allow you to update the catalog when you sell plants.
+
+Create a function named sellPlants that takes three arguments: a plant object, the pot size and the number of pots to sell, in this order.
+
+When the specified number of pots is greater then the available pots, make your function return Not enough <pot-size> size pots for <item-name>. Only <pot-number> left.. Replace <pot-size> with the pot size, <pot-number> with the remaining pots for that size, and <item-name> with the scientific name of the plant followed by a space and the name of the cultivar wrapped between single quotes.
+
+To test that everything works, log the result of calling your sellPlants function with the ballerina object, "small", and 25 to the console.
