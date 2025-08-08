@@ -42,3 +42,9 @@ Modify your set call to use your ballerina object as key. For the value, use an 
 
 Step 7
 Add another key-value pair to your catalog. Use your prettyPolly variable as the key and make the value an object with small, medium, and large properties whose values are integers again.
+
+Step 8
+Keep adding the remaining plants to your catalog as you did in the previous steps.
+
+Step 9
+Now that you added all your plants to the catalog, remove your console.log(catalog.size) call.
