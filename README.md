@@ -34,3 +34,8 @@ Note that to see your map object properly you'll have to open the browser consol
 
 Step 5
 The size property of a Map object returns the number of elements in the map. Log the size of your catalog to the console.
+
+Step 6
+Unlike regular objects, for which keys must always be strings, map objects allow you to use any datatype as keys. In your catalog, you're going to use object-object key-value pairs, associating each of your plant object with an object containing the number of available pots for different sizes.
+
+Modify your set call to use your ballerina object as key. For the value, use an object containing three properties, small, medium, and large, each with the value of a positive integer.
